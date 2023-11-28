@@ -1,70 +1,75 @@
 body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color:#cccccc;
-    border-color:black;
-    border-width:medium
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    border: 2px solid #333333;
 }
 
 .main {
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:100px;
-    width:550px;
-    height:400px;
+    margin: 100px auto;
+    width: 400px;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
-    color:black;
+    color: #333333;
+    text-align: center;
+    padding-top: 20px;
 }
 
 button {
-    border-radius: 15px;
-    border-width:thin;
-    width:36px;
-    margin-left:5px;
-    margin-right:5px;
-    margin-top:3px;
-    margin-bottom:3px;
+    border-radius: 50%;
+    border: 1px solid #888888;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    font-size: 18px;
+    transition: background-color 0.3s;
 }
 
 button.number {
-    color:#ffffff;
-    background-color:#c20202;
-      border-color:#c20202;
+    color: #333333;
+    background-color: #e6e6e6;
+}
+
+button.number:hover {
+    background-color: #d4d4d4;
 }
 
 button.op {
-    color:#ffffff;
-    background-color:#444444;
-    border-color:#c20202;
+    color: #ffffff;
+    background-color: #333333;
+}
+
+button.op:hover {
+    background-color: #444444;
 }
 
 span.display {
-    border-radius: 8px;
-    background-color:#c20202;
-    color:#ffffff;
-    font-weight:bold;
-    width:100%;
-    text-align:right;
-    padding-left:10px;
-    padding-right:10px;
+    display: block;
+    border-radius: 10px;
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 20px;
+    margin: 20px 10px;
+    height: 60px;
+    overflow: hidden;
 }
 
 table.calc {
-    border:0;
-    margin-left:auto;
-    margin-right:auto
+    width: 100%;
+    border-collapse: collapse;
 }
 
 tr.calc {
-    background-color:#c20202;
-    text-align:right
+    background-color: transparent;
 }
 
 img.logo {
-    float:left;
-    margin-left:20px;
-    margin-top:22px;
-    margin-bottom:60px;
-    height:35px
+    display: block;
+    margin: 10px auto;
+    height: 40px;
 }
