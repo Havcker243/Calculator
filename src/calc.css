@@ -1,75 +1,76 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f0f0f0;
-    border: 2px solid #333333;
+  font-family: "Arial", sans-serif;
+  background-color: #f0f0f0;
+  border: 2px solid #333333;
 }
 
 .main {
-    margin: 100px auto;
-    width: 400px;
-    height: 500px;
-    background-color: #ffffff;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 100px auto;
+  width: 400px;
+  height: 500px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
-    color: #333333;
-    text-align: center;
-    padding-top: 20px;
+  color: #333333;
+  text-align: center;
+  padding-top: 20px;
 }
 
 button {
-    border-radius: 50%;
-    border: 1px solid #888888;
-    width: 60px;
-    height: 60px;
-    margin: 10px;
-    font-size: 18px;
-    transition: background-color 0.3s;
+  border-radius: 50%;
+  border: 1px solid #888888;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  font-size: 18px;
+  transition: background-color 0.3s;
 }
 
 button.number {
-    color: #333333;
-    background-color: #e6e6e6;
+  color: #333333;
+  background-color: #e6e6e6;
 }
 
 button.number:hover {
-    background-color: #d4d4d4;
+  background-color: #d4d4d4;
 }
 
 button.op {
-    color: #ffffff;
-    background-color: #333333;
+  color: #ffffff;
+  background-color: #333333;
 }
 
 button.op:hover {
-    background-color: #444444;
+  background-color: #444444;
 }
 
 span.display {
-    display: block;
-    border-radius: 10px;
-    background-color: #333333;
-    color: #ffffff;
-    font-size: 24px;
-    padding: 20px;
-    margin: 20px 10px;
-    height: 60px;
-    overflow: hidden;
+  display: block;
+  border-radius: 10px;
+  background-color: #333333;
+  color: #ffffff;
+  font-size: 24px;
+  padding: 20px;
+  margin: 20px 10px;
+  height: 60px;
+  overflow: hidden;
+  
 }
 
 table.calc {
-    width: 100%;
-    border-collapse: collapse;
+  width: 100%;
+  border-collapse: collapse;
 }
 
 tr.calc {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 img.logo {
-    display: block;
-    margin: 10px auto;
-    height: 40px;
+  display: block;
+  margin: 10px auto;
+  height: 40px;
 }

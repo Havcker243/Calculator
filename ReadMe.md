@@ -1,4 +1,3 @@
-
 # React Calculator
 
 This React Calculator is a simple yet powerful web application built to demonstrate proficiency in React.js and modern web development practices. The application offers a user-friendly interface for performing basic arithmetic operations, making it suitable for anyone needing a handy calculator on their computer or mobile device.
@@ -38,13 +37,16 @@ To run the React Calculator locally, follow these steps:
 
 * In the project directory, execute `npm start`. This will start the React application on a local development server.
 
-1. **Access the Application** :
+2. **Access the Application** :
 
 * Open a web browser and visit `http://localhost:3000`. You should now see the React Calculator running.
 
-1. **Usage** :
+3. **Usage** :
 
 * Use the calculator interface to perform basic arithmetic operations.
+  When you run the application it should look like this 
+
+  ![1704755945844](image/ReadMe/1704755945844.png)
 
 ### **Shutting Down**
 
